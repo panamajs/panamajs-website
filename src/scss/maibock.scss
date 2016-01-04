@@ -789,5 +789,25 @@ a[twitter-followme]:hover {
   padding: 0 24px 0 4px;
   color: #fff;
 }
+.features {
+  background: $gray;
 
+  .button-contact {
+    display: inline-block;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    padding: .4em 1em;
+    font-size: 1em;
+    margin-bottom: .6em;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: bold;
+    text-transform: uppercase;
 
+    &:hover {
+      border-color: $lighten;
+      color: $lighten;
+      text-decoration: none;
+    }
+  }
+}
